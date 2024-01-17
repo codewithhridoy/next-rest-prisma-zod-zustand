@@ -34,3 +34,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+#lockfile
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+#jetbrains
+.idea
+
+# Ignore all .env files Except for .env.example
+.env
+.env*
+!.env.example
+
