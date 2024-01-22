@@ -1,5 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
+import { LoadingImage } from '@/v1/@core'
+
+import halftoneImg from '/public/assets/images/halftone-background-with-circles.jpg'
 
 const LinkClasses = 'border-b-2 border-blue-500 text-blue-500 hover:text-blue-700 hover:border-blue-700'
 
