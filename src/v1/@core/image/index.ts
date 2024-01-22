@@ -1,1 +1,1 @@
-export * from './LoadingImage'
+export * from './BlurImage'

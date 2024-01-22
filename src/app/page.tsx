@@ -1,8 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { LoadingImage } from '@/v1/@core'
-
-import halftoneImg from '/public/assets/images/halftone-background-with-circles.jpg'
+import { BlurImage } from '@/v1/@core'
+import Image from 'next/image'
 
 const LinkClasses = 'border-b-2 border-blue-500 text-blue-500 hover:text-blue-700 hover:border-blue-700'
 
@@ -27,6 +26,50 @@ const Home = () => {
             Superbase
           </Link>
         </section>
+
+        <div className={'container mx-auto grid grid-cols-6 gap-4 py-10'}>
+          <BlurImage
+            src={
+              'https://images.pexels.com/photos/1212487/pexels-photo-1212487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+            }
+            alt={'Pexel Image'}
+            width={600}
+            height={600}
+          />
+          <BlurImage
+            src={
+              'https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+            }
+            alt={'Pexel Image'}
+            width={600}
+            height={600}
+          />
+
+          <BlurImage
+            src={
+              'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+            }
+            alt={'Pexel Image'}
+            width={600}
+            height={600}
+          />
+          <BlurImage
+            src={
+              'https://images.pexels.com/photos/775203/pexels-photo-775203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+            }
+            alt={'Pexel Image'}
+            width={600}
+            height={600}
+          />
+          <BlurImage
+            src={
+              'https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+            }
+            alt={'Pexel Image'}
+            width={600}
+            height={600}
+          />
+        </div>
       </main>
     </>
   )

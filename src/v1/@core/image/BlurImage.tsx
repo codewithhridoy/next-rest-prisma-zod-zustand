@@ -2,12 +2,12 @@ import React from 'react'
 import Image, { ImageProps } from 'next/image'
 import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 
-interface LoadingImageProps extends ImageProps {
+interface BlurImageProps extends ImageProps {
   src: string | StaticImport
   alt: string
 }
 
-export const LoadingImage = ({ src, alt, ...rest }: LoadingImageProps) => {
+export const BlurImage = ({ src, alt, ...rest }: BlurImageProps) => {
   return (
     <>
       <div className='after:content after:shadow-highlight group relative mb-5 block w-full rounded-lg bg-slate-100 bg-cover after:pointer-events-none after:absolute after:inset-0 after:rounded-lg dark:bg-slate-800'>
