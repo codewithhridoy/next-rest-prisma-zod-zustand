@@ -27,18 +27,10 @@ const Home = () => {
           </Link>
         </section>
 
-        <div className={'container mx-auto grid grid-cols-5 gap-4 py-10'}>
+        <div className={'px-4 container mx-auto grid lg:grid-cols-4 gap-4 py-10'}>
           <BlurImage
             src={
               'https://images.pexels.com/photos/1212487/pexels-photo-1212487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-            }
-            alt={'Pexel Image'}
-            width={600}
-            height={600}
-          />
-          <BlurImage
-            src={
-              'https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
             }
             alt={'Pexel Image'}
             width={600}
