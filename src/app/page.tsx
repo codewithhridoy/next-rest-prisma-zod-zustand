@@ -27,7 +27,7 @@ const Home = () => {
           </Link>
         </section>
 
-        <div className={'container mx-auto grid grid-cols-6 gap-4 py-10'}>
+        <div className={'container mx-auto grid grid-cols-5 gap-4 py-10'}>
           <BlurImage
             src={
               'https://images.pexels.com/photos/1212487/pexels-photo-1212487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
