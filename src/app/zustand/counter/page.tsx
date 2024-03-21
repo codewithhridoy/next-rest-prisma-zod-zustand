@@ -1,9 +1,17 @@
 'use client'
 import { useCounterStore } from '@/v1/hooks/zustand'
 import Link from 'next/link'
+import { useEffect } from 'react'
 
 const Counter = () => {
   const { count, incrementCount, decrementCount, resetCount } = useCounterStore()
+
+  // To Reset Store when leaving the parent component (unmount).
+  useEffect(() => {
+    return () => {
+      resetCount()
+    }
+  }, [resetCount])
 
   return (
     <>
