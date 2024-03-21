@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { BlurImage } from '@/v1/@core'
-import Image from 'next/image'
 
 const LinkClasses = 'border-b-2 border-blue-500 text-blue-500 hover:text-blue-700 hover:border-blue-700'
 
@@ -19,7 +18,7 @@ const Home = () => {
           <Link href={'#'} className={LinkClasses}>
             Zod
           </Link>
-          <Link href={'#'} className={LinkClasses}>
+          <Link href={'/zustand'} className={LinkClasses}>
             Zustand
           </Link>
           <Link href={'#'} className={LinkClasses}>
