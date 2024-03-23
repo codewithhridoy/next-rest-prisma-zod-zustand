@@ -1,16 +1,15 @@
 import React from 'react'
-import { BlurImage, PrimaryLink } from '@/v1/components/ui'
+import { BlurImage, PrimaryLink } from '@/v1.0/components/ui'
 
 const Home = () => {
   return (
     <>
       <main className={'h-[100dvh]'}>
         <section id={'project-covers'} className={'flex justify-center gap-6 mt-4 lg:mt-6'}>
-          <PrimaryLink href={'#'}>REST</PrimaryLink>
-          <PrimaryLink href={'#'}>Prisma</PrimaryLink>
-          <PrimaryLink href={'#'}>Zod</PrimaryLink>
+          {/*<PrimaryLink href={'#'}>REST</PrimaryLink>*/}
+          {/*<PrimaryLink href={'#'}>Prisma</PrimaryLink>*/}
+          {/*<PrimaryLink href={'#'}>Zod</PrimaryLink>*/}
           <PrimaryLink href={'/zustand'}>Zustand</PrimaryLink>
-          <PrimaryLink href={'#'}>Superbase</PrimaryLink>
         </section>
 
         <div className={'px-4 container mx-auto grid lg:grid-cols-4 gap-4 py-10'}>

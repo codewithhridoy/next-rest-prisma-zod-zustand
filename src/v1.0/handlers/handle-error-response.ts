@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { HTTP_STATUS } from '@/v1/constants'
+import { HTTP_STATUS } from '@/v1.0/constants'
 
 export function errorResponse(
   message: string,

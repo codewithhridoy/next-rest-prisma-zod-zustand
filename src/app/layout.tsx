@@ -5,7 +5,7 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
-  title: 'REST - Prisma - Zod - Zustand - Superbase',
+  title: 'REST - Prisma - Zod - Zustand',
   description: 'Using Next.js 14 App Router'
 }
 

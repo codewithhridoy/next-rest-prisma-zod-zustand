@@ -1,14 +1,14 @@
 import React, { HTMLAttributes } from 'react'
 import Link from 'next/link'
-import { cn } from '@/v1/lib/utils'
+import { cn } from '@/v1.0/lib/utils'
 
-interface Props extends HTMLAttributes<HTMLAnchorElement> {
+interface PrimaryLinkProps extends HTMLAttributes<HTMLAnchorElement> {
   href: string
   className?: string
   children: React.ReactNode
 }
 
-export const PrimaryLink = ({ href, className, children, ...props }: Props) => {
+export const PrimaryLink = ({ href, className, children, ...props }: PrimaryLinkProps) => {
   return (
     <>
       <Link

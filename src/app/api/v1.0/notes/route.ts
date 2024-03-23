@@ -1,7 +1,7 @@
 import { NextResponse, NextRequest } from 'next/server'
-import { prisma } from '@/v1/lib'
-import { HTTP_STATUS } from '@/v1/constants'
-import { errorResponse } from '@/v1/handlers'
+import { prisma } from '@/v1.0/lib'
+import { HTTP_STATUS } from '@/v1.0/constants'
+import { errorResponse } from '@/v1.0/handlers'
 
 export async function POST(request: NextRequest) {
   try {

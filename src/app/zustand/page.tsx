@@ -1,11 +1,11 @@
-import Link from 'next/link'
+import { PrimaryLink } from '@/v1.0/components/ui'
 
 const Zustand = () => {
   return (
     <div className='mt-6 flex justify-center gap-4'>
-      <Link href='/'>Back To Home</Link>
-      <Link href='/zustand/person'>Person</Link>
-      <Link href='/zustand/counter'>Counter</Link>
+      <PrimaryLink href='/'>Back To Home</PrimaryLink>
+      <PrimaryLink href='/zustand/person'>Person</PrimaryLink>
+      <PrimaryLink href='/zustand/counter'>Counter</PrimaryLink>
     </div>
   )
 }
