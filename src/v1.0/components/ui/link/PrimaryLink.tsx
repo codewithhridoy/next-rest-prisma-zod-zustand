@@ -13,7 +13,7 @@ export const PrimaryLink = ({ href, className, children, ...props }: PrimaryLink
     <>
       <Link
         href={href}
-        className={cn('border-b-2 border-blue-500 text-blue-500 hover:text-blue-700 hover:border-blue-700', className)}
+        className={cn('text-blue-500 hover:text-blue-700 underline underline-offset-4', className)}
         {...props}
       >
         {children}
